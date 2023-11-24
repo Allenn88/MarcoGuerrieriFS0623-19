@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family:  Roboto, sans-serif;
+}
+header{
+    background-color:#ffc017 ;
+}
+header img{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: #191919;
+}
+header hr{
+    border: 1px solid #191919;
+    margin: 0;
+}
+.btnheader{
+    background-color: #191919;
+    border-radius: 25px;
+    color: whitesmoke;
+    padding-right: 20px;
+}
+.animazioneM{
+    width: 50%;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.parte1{ 
+    background-color: #ffc017;
+    display: flex;
+    padding: 20px;
+}
+.parte1 h1{
+    font-size: 3rem;
+    color: #191919;
+    padding-top: 70px;
+    font-weight: bold;
+}
+.parte1 p{
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.parte1 button{
+    background-color: #191919;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+hr{
+    margin: 0;
+}
+.parte2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parte2a{
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+}
+.parte2b,.parte2c,.parte2d,.parte2e,.parte2f,.parte2g{
+    display: flex;
+    width: 30%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.parte2 img{
+    width: 20px;
+    height: 20px;
+}
+.parte2 p{
+    color: #757575;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.parte2 h4{
+    font-weight: bold;
+}
+.parte2 h2{
+    font-weight: bold;
+}
+.parte2 span{
+    color: #757575;
+}
+.hrcentro{
+    margin: 25px;
+    color: #757575;
+}
+.discover{
+    width: 30%;
+    text-align: center;    
+    padding-top: 25px;
+}
+.boxfisso{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: baseline;
+}
+.boxfisso a{
+    text-decoration: none;
+    color: #757575;
+    padding: 25px;
+}
+.boxfisso h3{
+    width: 100%;
+    font-weight: bold;
+}
+.boxfisso button{
+    border: 1px solid #757575;
+    width: 100;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.discoverfinale{
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+}
+.boxfisso hr{
+    border: 1px solid #757575;
+}
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+aside img:last-child{
+    flex-direction: row;
+}
